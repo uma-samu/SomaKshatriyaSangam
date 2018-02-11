@@ -6,6 +6,10 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,6 +31,52 @@
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="sangam.kshatriya.com.home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us">
+            <intent-filter>
+                <action android:name="sangam.kshatriya.com.aboutus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/title_activity_history">
+            <intent-filter>
+                <action android:name="sangam.kshatriya.com.history" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StoryActivity"
+            android:label="@string/title_activity_story">
+            <intent-filter>
+                <action android:name="sangam.kshatriya.com.story" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TemplesActivity"
+            android:label="@string/title_activity_temples">
+            <intent-filter>
+                <action android:name="sangam.kshatriya.com.temples" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/title_activity_contact_us">
+            <intent-filter>
+                <action android:name="sangam.kshatriya.com.contactus" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

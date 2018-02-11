@@ -13,10 +13,10 @@ public class GridViewImageTextActivity extends AppCompatActivity {
     GridView androidGridView;
 
     String[] gridViewString = {
-            "Home", "About Us", "History", "Temple", "Contact Us"
+            "Home", "About Us", "History", "Story", "Temple", "Contact Us"
     } ;
     int[] gridViewImageId = {
-            R.drawable.home, R.drawable.about_us, R.drawable.history, R.drawable.temple, R.drawable.contact_us
+            R.drawable.home, R.drawable.about_us, R.drawable.history, R.drawable.history, R.drawable.temple, R.drawable.contact_us
 
     };
 
@@ -33,12 +33,31 @@ public class GridViewImageTextActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int i, long id) {
+                Toast.makeText(GridViewImageTextActivity.this, "GridView Item: " + gridViewString[+i], Toast.LENGTH_LONG).show();
                 if(i==0){
-                    Toast.makeText(GridViewImageTextActivity.this, "GridView Item: " + gridViewString[+i], Toast.LENGTH_LONG).show();
                     Intent intent = new Intent("sangam.kshatriya.com.home");
                     startActivity(intent);
                 }
-
+                if(i==1){
+                    Intent intent = new Intent("sangam.kshatriya.com.aboutus");
+                    startActivity(intent);
+                }
+                if(i==2){
+                    Intent intent = new Intent("sangam.kshatriya.com.history");
+                    startActivity(intent);
+                }
+                if(i==3){
+                    Intent intent = new Intent("sangam.kshatriya.com.story");
+                    startActivity(intent);
+                }
+                if(i==4){
+                    Intent intent = new Intent("sangam.kshatriya.com.temples");
+                    startActivity(intent);
+                }
+                if(i==5){
+                    Intent intent = new Intent("sangam.kshatriya.com.contactus");
+                    startActivity(intent);
+                }
             }
         });
 

@@ -2,4 +2,9 @@
     <string name="app_name">SomaKshatriyaSangam</string>
     <string name="title_activity_custom_grid_view">Soma Kshatriya Sangham</string>
     <string name="title_activity_grid_view_image_text">Soma Kshatriya Sangham</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_story">StoryActivity</string>
+    <string name="title_activity_temples">TemplesActivity</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
 </resources>
