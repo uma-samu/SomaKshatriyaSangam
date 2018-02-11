@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1" >
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="10dip"
+                    android:src="@drawable/nakhas_logo"
+                    android:tint="#55ff0000" >
+                </ImageView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="Sri Soma Kshatriya Sangam group is to formalize all my Soma Kshatriya's. This group is to communicate the most upto date information on what and where the community is growing. Hopefully, this will lead to action on your part and you will support them.
+
+To join this group, all you have to do is just send an email contactus@somakshatriyanakhas.org
+
+To POST A MESSAGE to this forum by Email, send your contribution to: contactus@somakshatriyanakhas.org
+
+Thanking you all.
+
+
+Best regards,
+Organising Committee" >
+                </TextView>
+            </TableRow>
+
+         </TableLayout>
+
+    </RelativeLayout>
+</ScrollView>
