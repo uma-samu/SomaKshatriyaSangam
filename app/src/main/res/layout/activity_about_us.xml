@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sangam.kshatriya.com.AboutUsActivity">
+
+    <TextView
+        android:id="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        android:text="About Us"/>
+
+    <TextView
+        android:id="@+id/article_subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_heading"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:text="Welcome to Soma Kshatriyas's."/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_subheading">
+
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:autoLink="web"
+            android:text="We formed this group to formalize to all my Soma Kshatriyas's. This website is to communicate the most upto date information on what and where the community is growing.Hopefully, this will lead to action on your part and you will support them. We began to work with this site to know more about the Soma Kshatriyas's.\n\n\n Our involvement was not planned; A small gesture ten years ago has now become a steady flow of support that is there with promise of a better tomorrow. Together, with progressive members like you. All praise to Maata Nimishambha Devi. I urge you read more about the Soma Kshatriyas's and find it in your heart to support them. We work with existing Soma Kshatriyas's in World, using their logistics to achieve our goals.\n\n\n Our future plan is to develop matrimonial site for Soma Kshatriyas's and provide social welfare benefits to our community members. Please let me know if you have any suggestions or concerns to develop our group."/>
+    </ScrollView>
+</RelativeLayout>

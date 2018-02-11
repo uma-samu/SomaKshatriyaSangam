@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sangam.kshatriya.com.AboutUsActivity">
+
+    <TextView
+        android:id="@+id/SonucTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="The creator of the Universe, Lord brahma; who sprung up from the navel of the Protector of the Universe, Lord Maha Vishnu, narrated the mythological history of shri Mukta Rishi bringing about the origin of Soma Vamsha Arya Kshatriya caste to his gem-like son Narada Maharshi in Sathva Loka. While the same has been narrated by Mythologist saint Soota to the holy sages Shaunaka etc."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:scrollbars="vertical" />
+</RelativeLayout>
