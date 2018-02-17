@@ -2,8 +2,9 @@ package sangam.kshatriya.com;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 
-public class ContactUsActivity extends Activity {
+public class ContactUsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

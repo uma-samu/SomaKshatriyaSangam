@@ -33,7 +33,6 @@ public class GridViewImageTextActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int i, long id) {
-                Toast.makeText(GridViewImageTextActivity.this, "GridView Item: " + gridViewString[+i], Toast.LENGTH_LONG).show();
                 if(i==0){
                     Intent intent = new Intent("sangam.kshatriya.com.home");
                     startActivity(intent);

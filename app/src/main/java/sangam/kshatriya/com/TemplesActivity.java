@@ -2,10 +2,11 @@ package sangam.kshatriya.com;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class TemplesActivity extends Activity {
+public class TemplesActivity extends AppCompatActivity {
 
     String[] templesArray = {"Shri Nimishamba Devi Temple\nShukravarapet Khammmam, Andhra pradesh",
             "Shri Nimishamba Devi Temple\nKeerthi Nagar Colony, Warangal\n\nSanjay: 9866135004; Prabhakar: 9966871501",

@@ -2,8 +2,9 @@ package sangam.kshatriya.com;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 
-public class StoryActivity extends Activity {
+public class StoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
