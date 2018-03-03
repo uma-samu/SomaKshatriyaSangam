@@ -13,7 +13,9 @@
         android:paddingBottom="10dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:text="Nimishamba Devi Temples"/>
 
     <ListView

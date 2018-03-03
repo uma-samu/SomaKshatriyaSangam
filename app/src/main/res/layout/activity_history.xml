@@ -19,7 +19,9 @@
                     android:paddingBottom="10dp"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     android:text="History of Nimishambha Devi"/>
             </TableRow>
             <TableRow>
@@ -28,6 +30,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="3dip"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
                     android:text="Sri Nimishamba is considered as the incarnation of Goddess Parvathi, the consort of Lord Shiva. This place Ganjam is considered as a holy place. Muktharaja of soma Vamsha performed penance at Nimishamba Temple. Definitely this Temple has great relevance to the Mutharasa!\n\nShrichakra is carved on a stone in front of Sri Nimishamba and pooja is performed. There is a belief that Sri Nimishamba is going to remove all the problems and troubles of her devotees within a minute. That is why she is called Nimishamba. Nimisha means a minute. Somavamsha Mutharasa king Muktharaja was blessed with the boon that Sri Nimishamba will come to his aid in his fight against the demons in a minute. That is why there is a deity Lord Shiva by the name of Moukthikeshwara. This temple was installed at the time of Mummadi Krishnaraja Wodeyar about 300 to 400 years ago.\n\nThe temple of Nimishamba lies at a distance of two kilometres from Srirangapatna bus stand in the eastern direction beyond Tippu's summer palace on the road leading to Sangam.. The temple is at a higher elevation on the bank of the Cauvery, and faces east. The river flows by at a lower level, and steps have been neatly cut on stone slabs to reach it. It is a small shrine with a seven-tiered rajagopuram. Goddess Nimishamba's sannidhi is to the right as one enters the shrine. It is a fine piece of icon. She is beautifully bedecked with jewellery and garlands of red roses. In front of the Goddess is placed the Sri Chakra to which puja is done with kumkum by the priest. The devotees stand in rapt attention till deeparadhana is offered to the deity.\n\nAdjoining the sannidhi of the Goddess is that of Siva, whose appellation is Aksheeswara. The icon is a small sized linga. The Nandi is proportionately small sized, and is diagonally facing Siva. Only after offering deeparadhana to Siva, it is offered to the Goddess. Adjoining this sannidhi is that of Lakshminarayana. All the three sannidhis are in a row. There are no suka nasi and Navaranga. There is only a mukha mantapa.\n\nThere is a big brass bell hanging from the ceiling, which is rung by the priest himself after placing the bali bhojanam on the bali peetam for the crows to eat. Once the bell is rung, the crows come down to the bali peetam in an orderly way to partake it! It is indeed unique to this temple. There is a prakaram(closed precincts of a temple) for circumambulation. The Nimishamba temple has shot to fame recently for its instant granting of boons to those who pray here.\n\nIt would be of interest to note that marriage proposals which have been dragging on for years, get clicked immediately after visiting this shrine. It is probable that the temple might have been built during the reign of Raja Wadiyar I 1610-38 A.D. who ascended the Mysore throne at Srirangapatna. Regular puja has been done for the last 50 years. The temple falls under the HR and CE of Karnataka State. One of the temple is also located at OTC Road Cottonpet Near Majestic, Bangalore. Another temple located near Raja Rajeshwari Nagar, Bangalore." >
                 </TextView>
             </TableRow>
