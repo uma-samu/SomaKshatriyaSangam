@@ -16,7 +16,7 @@ public class GridViewImageTextActivity extends AppCompatActivity {
             "Home", "About Us", "History", "Story", "Temple", "Members", "Contact Us"
     } ;
     int[] gridViewImageId = {
-            R.drawable.home, R.drawable.about_us, R.drawable.history, R.drawable.history, R.drawable.temple,  R.drawable.about_us, R.drawable.contact_us
+            R.drawable.home, R.drawable.about_us, R.drawable.history, R.drawable.story, R.drawable.temple,  R.drawable.members, R.drawable.contact_us
 
     };
 
