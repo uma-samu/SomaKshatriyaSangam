@@ -14,6 +14,11 @@ public class CustomGridViewActivity extends BaseAdapter {
     private final String[] gridViewString;
     private final int[] gridViewImageId;
 
+    public CustomGridViewActivity(){
+        this.gridViewImageId = null;
+        this.gridViewString = null;
+    }
+
     public CustomGridViewActivity(Context context, String[] gridViewString, int[] gridViewImageId) {
         mContext = context;
         this.gridViewImageId = gridViewImageId;

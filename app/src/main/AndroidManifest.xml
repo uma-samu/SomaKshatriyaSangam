@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sangam.kshatriya.com">
+    package="sangam.kshatriya.com"
+    android:versionCode="2">
 
     <uses-sdk
         android:minSdkVersion="8"
